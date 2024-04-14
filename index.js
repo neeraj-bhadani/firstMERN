@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.send('Hello from MERN stack backend!');
   });
 
-app.listen(PORT, ()=> {
-    console.log('Server listening at localhost:${PORT}');
+app.listen(PORT, () => {
+    console.log(`Server is listening at http://localhost:${PORT}`);
 });
 
